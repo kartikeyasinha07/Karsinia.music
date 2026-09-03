@@ -12,6 +12,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    /* Activity readability fix */
+.activity,
+.activity *,
+.activity-item,
+.activity-item *,
+#homeActivity,
+#homeActivity *,
+#page-activity,
+#page-activity *,
+.activity-time,
+.activity-text {
+  color: #000000 !important;
+}
+
+.activity-item,
+#homeActivity > div {
+  border-bottom-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.activity-item .meta,
+#homeActivity .meta,
+#page-activity .meta {
+  color: rgba(0, 0, 0, 0.58) !important;
+  opacity: 1 !important;
+}
     :root{
       --bg:#07080c;
       --panel:rgba(15,16,24,.74);
